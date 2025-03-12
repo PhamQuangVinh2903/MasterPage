@@ -1,0 +1,134 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Hoặc flex-end */
+}
+
+.header .Logo {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+header nav {
+    display: flex;
+    margin-left: 30px;
+}
+
+    header nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+.banner {
+    background-color: #f0f0f0;
+    height: 500px;
+    text-align: center;
+    line-height: 200px;
+    background-image: url('./img/Banner2.png'); /* Sử dụng đường dẫn tương tự ASP.NET */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.SideBar {
+    width: 200px;
+    background-color: #eee;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.right {
+    flex-grow: 1;
+}
+
+.Breadrum {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.Content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.Footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Image styling */
+.Logo img {
+    max-height: 50px; /* Adjust as needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .SideBar {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        header nav {
+            margin-top: 10px;
+        }
+}
+
+.SideBar {
+    width: 200px; /* Chiều rộng cố định 200px */
+    background-color: #eee; /* Màu nền xám nhạt */
+    padding: 10px; /* Padding bên trong sidebar, tạo khoảng cách giữa nội dung và viền */
+    margin-right: 20px; /* Khoảng cách bên phải sidebar, tạo khoảng cách với nội dung chính */
+}
+
+    .SideBar a { /* Áp dụng kiểu dáng cho liên kết trong sidebar */
+        display: block; /* Hiển thị mỗi liên kết trên một dòng */
+        padding: 8px 12px; /* Padding cho mỗi liên kết */
+        margin-bottom: 5px; /* Khoảng cách giữa các liên kết */
+        text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */
+        color: #333; /* Màu chữ xám đậm */
+        border-radius: 4px; /* Bo tròn góc */
+    }
+
+        .SideBar a:hover { /* Kiểu dáng khi hover vào liên kết */
+            background-color: #ddd; /* Màu nền xám nhạt hơn khi hover */
+        }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .SideBar {
+        width: 100%; /* Sidebar chiếm toàn bộ chiều rộng khi màn hình nhỏ */
+        margin-right: 0; /* Loại bỏ margin bên phải khi màn hình nhỏ */
+        margin-bottom: 20px; /* Thêm margin bên dưới khi màn hình nhỏ */
+    }
+}
