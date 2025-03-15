@@ -49,8 +49,8 @@ C:\Users\ADMIN\OneDrive\DTUUUUUUUUU\Thương Mại Điện Tử\MasterPage\Page2
 C:\Users\ADMIN\OneDrive\DTUUUUUUUUU\Thương Mại Điện Tử\MasterPage\Page2\Page2\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\ADMIN\OneDrive\DTUUUUUUUUU\Thương Mại Điện Tử\MasterPage\Page2\Page2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\ADMIN\OneDrive\DTUUUUUUUUU\Thương Mại Điện Tử\MasterPage\Page2\Page2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\ADMIN\OneDrive\DTUUUUUUUUU\Thương Mại Điện Tử\MasterPage\Page2\Page2\obj\Debug\Page2.csprojAssemblyReference.cache
 C:\Users\ADMIN\OneDrive\DTUUUUUUUUU\Thương Mại Điện Tử\MasterPage\Page2\Page2\obj\Debug\Page2.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\OneDrive\DTUUUUUUUUU\Thương Mại Điện Tử\MasterPage\Page2\Page2\obj\Debug\Page2.csproj.CopyComplete
 C:\Users\ADMIN\OneDrive\DTUUUUUUUUU\Thương Mại Điện Tử\MasterPage\Page2\Page2\obj\Debug\Page2.dll
 C:\Users\ADMIN\OneDrive\DTUUUUUUUUU\Thương Mại Điện Tử\MasterPage\Page2\Page2\obj\Debug\Page2.pdb
+C:\Users\ADMIN\OneDrive\DTUUUUUUUUU\Thương Mại Điện Tử\MasterPage\Page2\Page2\obj\Debug\Page2.csprojAssemblyReference.cache

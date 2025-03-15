@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WebApplication1",
+    "\\Page2",
+    "\\Page2\\Page2",
     "\\WebApplication1\\WebApplication1"
   ],
-  "SelectedNode": "\\WebApplication1\\WebApplication1\\Site1.Master",
+  "SelectedNode": "\\Page2\\Page2\\Page_Home.aspx",
   "PreviewInSolutionExplorer": false
 }

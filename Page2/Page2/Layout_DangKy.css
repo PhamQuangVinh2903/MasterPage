@@ -1,0 +1,80 @@
+﻿/* Layout_DangKy.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #51A7BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#form1 {
+    background-color: #E8F5FF; /* Màu nền form mới */
+    padding: 50px; /* Tăng padding */
+    border-radius: 15px; /* Bo tròn góc nhiều hơn */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Bóng đổ tinh tế */
+    width: 380px;
+    text-align: center;
+    border: 1px solid #D1E8FF; /* Thêm viền nhẹ */
+    transition: box-shadow 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+}
+
+    #form1:hover {
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Hiệu ứng hover */
+    }
+
+#lbl_dangKy {
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+label {
+    width: 120px;
+    font-weight: 600;
+    font-size: 21px;
+    color: #495057; /* Thay đổi màu label */
+    text-align: right;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 250px;
+    flex-grow: 0;
+    padding: 12px;
+    border: 1px solid #ADD8E6;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #F8F9FA; /* Thay đổi màu textbox */
+    color: #333;
+}
+
+#btn_dangKy {
+    background-color: #4834d4;
+    color: #DAF4FF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+    #btn_dangKy:hover {
+        background-color: #6c5ce7;
+    }

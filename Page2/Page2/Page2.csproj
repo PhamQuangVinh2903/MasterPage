@@ -67,15 +67,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Page_DangKy.aspx" />
     <Content Include="Page_Home.aspx" />
     <Content Include="Page_NoiDung.aspx" />
     <Content Include="Page_SanPham.aspx" />
     <Content Include="Page_TinTuc.aspx" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="Layout_DangKy.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Page_DangKy.aspx.cs">
+      <DependentUpon>Page_DangKy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page_DangKy.aspx.designer.cs">
+      <DependentUpon>Page_DangKy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page_Home.aspx.cs">
       <DependentUpon>Page_Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
